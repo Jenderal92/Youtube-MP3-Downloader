@@ -13,7 +13,7 @@ def Banner():
 	print "=============" 
 Banner()
 
-urll = raw_input(shinx.RED + 'URL : ' +shinx.WHITE).replace('https://youtu.be/','')
+urll = raw_input(shinx.RED + 'Enter YT Link : ' +shinx.WHITE).replace('https://youtu.be/','')
 try:
 	urls = "https://api.vevioz.com/file/mp3/"+urll
 	r = shin_code.get(urls).content
